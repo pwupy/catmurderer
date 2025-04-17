@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="cat.css">
+  <meta charset="UTF-8">
+  <title>Tales of a Cat Murderer</title>
+</head>
+
+<body>
+
+<div id="allItems" class="hidden">
+
+What I currently have:<br/>
+
+<div id="house" class="item">
+  <div class="emoji">🏠</div>
+  <p>My house</p>
+</div>
+
+<div id="catHatred" class="item">
+  <div class="emoji">🐈</div>
+  <p>An abiding hatred for my neighbor's cat</p>
+</div>
+
+<div id="bike" class="item">
+  <div class="emoji">🚲</div>
+  <p> My neighbor's bike </p>
+</div>
+
+<div id="car" class="item">
+  <div class="emoji">🚗</div>
+  <p> My car with broken tires </p>
+</div>
+
+<div id="newCar" class="item">
+  <div class="emoji">🚗</div>
+  <p> My car, now fixed? </p>
+</div>
+
+ <div id="lockpick" class="item">
+  <div class="emoji">🧰</div>
+  <p> My lockpick kit </p>
+ </div>
+
+ <div id="chainsaw" class="item">
+  <div class="emoji">🪚</div>
+  <p> A CHAINSAW (for obvious reasons) </p>
+ </div>
+
+ <div id="hammer" class="item">
+  <div class="emoji">🔨</div>
+  <p> A hammer (for bashing brains) </p>
+ </div>
+
+ <div id="poison" class="item">
+  <div class="emoji">🧪</div>
+  <p> Some poison (Is an explanation necessary?) </p>
+ </div>
+
+ <div id="rope" class="item">
+  <div class="emoji">🪢</div>
+  <p> Some rope (Strangulation is a nasty way to go) </p>
+ </div>
+
+ <div id="plants" class="item">
+  <div class="emoji">🪴</div>
+  <p> Potted plants (because cats totally have plant allergies) </p>
+ </div>
+
+ <div id="fuel" class="item">
+  <div class="emoji">🛢️</div>
+  <p> Fuel keg (for blowing things up) </p>
+ </div>
+
+ <div id="bags" class="item">
+  <div class="emoji">🗑️</div>
+  <p> Trash bags (for disposal of bodies) </p>
+ </div>
+
+ <div id="lumber" class="item">
+  <div class="emoji">🪵</div>
+  <p> Lumber (the good old hit-them-over-the-head method) </p>
+ </div>
+
+ <div id="screws" class="item">
+  <div class="emoji">🔩</div>
+  <p> Screws (for torture) </p>
+ </div>
+
+</div>      
+
+<div id="allRooms" class="hidden">
+
+<div id="start" class="room">
+ <center> 
+ <h2> TALES OF A CAT MURDERER </h2>
+          By Olivia Nelson  </br>
+  
+  <p> 
+    Disclaimer: May contain violence, murder, kidnapping, and an unhealthy desire to murder one's neighbor's cat. <br/> 
+    You have been warned.
+   </p>
+  
+  <p><button onclick="go(start1); get(house); show(allItems)">Continue</button></p>
+  </center>
+ </div>
+
+
+<div id="start1" class="room">
+  <p>
+    Once upon a time, in a kingdom far far away, there was:<br/>
+  </p>
+  <p><button onclick="go(start2)">a. a princess in a tower</button></p>
+  <p><button onclick="go(start3)">b. a fearsome dragon</button></p>
+  <p><button onclick="go(start4)">c. me </button></p>
+</div>
+
+<div id="start2" class="room">
+  <p>
+    Sheesh. First of all, this story is NOT about a princess. <br/>
+    Secondly, why do people always assume the princess is stuck in a tower?<br/>
+    Do consider another possibility. <br/>
+  </p>
+  <p><button onclick="go(start1)">Please do better</button></p>
+</div>
+
+<div id="start3" class="room">
+  <p>
+     Reality check: dragons do not exist. So this story couldn't possibly be about them. <br/>
+     Do put the muscles between your ears to work. <br/>
+  </p>
+  <p><button onclick="go(start1)">Try again</button></p>
+</div>
+
+<div id="start4" class="room">
+  <p>
+     Should be pretty obvious, considering how outlandish the other options are. <br/>
+     And after all, the tale I have to tell is MUCH more interesting than any of these others…<br/>
+  </p>
+  <p><button onclick="go(start5)">Next</button></p>
+</div>
+
+<div id="start5" class="room">
+  <p>
+    So anyway, once upon a time, in a kingdom far far away, there was me. <br/>
+    And there was the neighbor. <br/> 
+    And there, THERE, was the neighbor's CAT. Now this cat was <br/>
+  </p>
+  <p><button onclick="show(message5a)">absolutely adorable</button></p>
+  <span id="message5a" class="hidden">
+  So VERY adorable, that even when it left fifteen dead birds in my neighbor's backyard,<br/> 
+  all it took was one innocent, wide-eyed stare, and my neighbor blamed the SQUIRRELS. <br/>
+  What do people have against squirrels?</span>
+
+  <p><button onclick="show(message5b)">ridiculously furry</button></p>
+  <span id="message5b" class="hidden">
+  Within two weeks, that thing shed enough hair in my backyard to stuff a pillow. <br/>
+  </span>
+
+  <p><button onclick="show(message5c)">and a demon from the pits of hell.</button></p>
+  <span id="message5c" class="hidden">
+   Those eyes stared into my soul. It was absolutely the embodiment of Satan.<br/> 
+  </span>
+  
+  <p><button onclick="go(start6); get(catHatred)">Next</button></p>
+</div>
+
+ <div id="start6" class="room">
+  <p>
+     Naturally, the CAT was a PROBLEM. A PROBLEM that must be DEALT WITH. <br/>
+     So, naturally, as the gallant and charming hero of this story, I must find a way to DEAL with the cat. <br/>
+     These were the options. <br/>
+  </p>
+  <p><button onclick="go(murder)">Kill it</button></p>
+  <p><button onclick="go(happy)">Ignore it</button></p>
+</div>
+
+<div id="murder" class="room">
+  <p>
+     Now, the art of murder is highly complex, <br/> 
+     and contains numerous methods that will inflict extreme pain and fear upon the victim <br/>
+     So my options were: <br/>
+  </p>
+  <p><button onclick="go(deatha)">A poisoned McDonald's burger</button></p>
+  <p><button onclick="go(deathb)">Cat-sized traps in my backyard with food inside</button></p>
+  <p><button onclick="go(deathc)">A chainsaw from Home Depot</button></p>
+  <p><button onclick="go(deathd)">Find some run-down black market store that sells guillotines <br/> 
+for the recreation of Marie Antoniette's death in snuff films</button></p>
+
+</div>
+
+<div id="happy" class="room">
+  <p>
+     Seriously? Ignore THAT cat? Impossible. <br/>
+  </p>
+  <p><button onclick="go(start6)">Revise your decisions</button></p>
+</div>
+
+<div id="deatha" class="room">
+  <p>
+     Hmm. Yes, poison sounds excellent. <br/>
+     Just leave some interesting little meat and pickle tidbits in my backyard, and… THE SQUIRRELS! <br/>
+     As a proud animal rights activist, I could never in good conscience kill the squirrels. So that's out. <br/>
+  </p>
+  <p><button onclick="go(murder)">Murder options</button></p>
+</div>
+
+<div id="deathb" class="room">
+  <p>
+     That cat is a menace. Too smart for its own good. <br/>
+     It is never going to wander inside a little metal electrifying box. <br/>
+     I tried this before once, actually… The darned thing UNPLUGGED the box from the socket!!!! <br/>
+     And then left the empty can of Friskies in my shoe. The smell of canned fish plagued me for months. <br/>
+     NEVER AGAIN.<br/>
+  </p>
+  <p><button onclick="go(murder)">Murder options</button></p>
+</div>
+
+<div id="deathc" class="room">
+  <p>
+     So far, this appears to be the best option. <br/>
+  </p>
+  <p><button onclick="go(scheme)">THE SCHEME</button></p>
+</div>
+
+<div id="deathd" class="room">
+  <p>
+     Huh. I checked in with my local friendly illegal weapons/murder-machines dealer, <br/>
+     and apparently they are out of stock. This is a more popular option than I thought it would be. <br/> 
+     The things people DO these days.<br/>
+  </p>
+  <p><button onclick="go(murder)">Murder options</button></p>
+</div>
+
+<div id="scheme" class="room">
+  <p>
+   So, so far the CHAINSAW is at the top of my list.<br/>
+
+   I would hop in my car and drive to the local Home Depot, but... THAT CAT POPPED MY TIRES. <br/>
+   … <br/>
+   Three options now confront me. <br/>
+  <p><button onclick="go(tripa); get(car); get(lockpick)">Steal the neighbor's bike</button></p>
+  <p><button onclick="go(tripb); get(car)">Walk</button></p>
+  <p><button onclick="go(tripc); get(car)">Walk to the local car dealership, buy tires, <br/> 
+  bring them back, and THEN drive to local Home Depot. <br/> </button></p>
+
+</div>
+
+
+<div id="tripa" class="room">
+  <p>
+   I grab my lock-picking kit, and, carrying a 13-foot step ladder, <br/>
+   furtively slink up to the edge of the neighbor's property <br/>
+   and place it so that I can clamber over the 2-foot high picket fence.  <br/>
+   Then, I slink mysteriously and enigmatically into the shade of the trees, <br/>
+   and perform my best ninja/karate moves at my neighbor's garden gnomes. <br/> 
+   In front of the shed, I produce my lock-pick set and spend half an hour poking and prodding with my tools... <br/> 
+   until I realize that the door isn't locked. Finally, I emerge with my neighbor's bike, and set off. <br/>
+  </p>
+  <p><button onclick="go(biker); get(bike)">Next</button></p>
+</div>
+
+<div id="tripb" class="room">
+  <p>
+     As I walk at the incredible speed of 2 miles/per hour, <br/> 
+     and I live in the middle of nowhere (the store is 30 miles away), <br/> 
+     I arrive at the nearest Home Depot, starving, after about 15 hours. <br/>
+  </p>
+  <p><button onclick="go(walker)">Next</button></p>
+</div>
+
+<div id="tripc" class="room">
+  <p>
+      The local car dealership is right next to the local Home Depot, <br/>
+      so I, in an exceedingly clever and time-saving plan, walk 30 miles at 2 miles per hour, <br/> 
+      taking 15 hours, get tires, and then walk back, taking 20 hours. <br/> 
+      Now, I spend 7 hours changing my tires, and then drive in an hour to the Home Depot.<br/>
+  </p>
+  <p><button onclick="go(driver); get(newCar); drop(car)">Next</button></p>
+</div>
+
+
+<div id="biker" class="room">
+  <p>
+      <img src="images/home_depot1.jpg">
+
+      A long while later… I behold the bright orange sign proclaiming, "The Home Depot." <br/>
+      For some reason, people give me odd looks, as if an old man in a bathrobe arriving <br/>
+      on a bicycle at a home improvement store in the wee hours of the morning is out of the ordinary. <br/> 
+      I could have been on a unicycle instead. I proceed to enter the store. <br/>
+      A cashier by the door gives me a funny look, but lets me pass. <br/>
+      Now, I must track down a chainsaw and other appropriate weapons for cat-slaying. <br/>
+  </p>
+  <p><button onclick="go(mainAisle); drop(house); drop(car); drop(bike)">Begin the hunt!</button></p>
+</div>
+
+
+<div id="walker" class="room">
+  <p>
+    <img src="images/home_depot2.jpg">
+
+    Finally, covered in mud and rain, I collapse upon my knees among the flower pots dotting the front of the store. <br/> 
+    People skirt around me to get through the door; a couple of them mutter to each other. <br/>
+    A little old lady wearing spectacles taps me gently on the shoulder and asks how she can help me. <br/>
+  </p>
+  <p><button onclick="go(lady1)">Tell her my plan</button></p>
+  <p><button onclick="go(lady2)">Claim to be fine</button></p>
+  <p><button onclick="go(lady3)">Ask where to find chainsaws</button></p>
+</div>
+
+
+<div id="lady1" class="room">
+  <p>
+     Delighted to finally meet someone so understanding of my situation, <br/>
+     I launch into a rant about the blemishes that the existence of cats paints upon the world. <br/> 
+     She quickly excuses herself, and I notice her pulling out her phone in the corner. <br/>
+     A few minutes later, a fleet of police officers arrive and take me into custody. <br/>
+     Apparently, laws created by insane government officials prohibit the harming of animals <br/>
+     (not that I disagree, except for CATS), and I am sentenced to three years in prison. <br/>
+  </p>
+  <p><button onclick="go(lose1)">THE END</button></p>
+</div>
+
+<div id="lose1" class="room">
+ <p>
+   The moral of the story: BEWARE OLD CAT LADIES <br/>
+   Thank you for playing! <br/>
+   <p><button onclick="location.reload()">Try again?</button></p>
+ </p>
+</div>
+
+
+<div id="lady2" class="room">
+  <p>
+      The old lady accepts my answer, but seems to regard me with great suspicion. <br/>
+      When I enter the store, she follows. But I ignore her. <br/>
+      Now, I must track down a chainsaw and other appropriate weapons for cat-slaying. <br/>
+  </p>
+  <p><button onclick="go(mainAisle); drop(house); drop(car)">Begin the hunt!</button></p>
+</div>
+
+
+
+<div id="lady3" class="room">
+   <p>
+     The old lady's eyebrows raise extremely high. <br/> 
+     She says a few words to the cashier by the door, and soon several police officers ask me questions. <br/>
+     I attempt to plead innocence, but one of the officers visits my house and discovers a notebook detailing my plans. <br/>
+     I am sentenced to three years in prison for intending to murder my neighbor's cat. <br/>
+  </p>
+  <p><button onclick="go(lose2)">THE END</button></p>
+</div>
+
+ <div id="lose2" class="room">
+ <p>
+   The moral of the story: Crazy-looking old men should not mention chainsaws when under scrutiny <br/>
+   Thank you for playing! <br/>
+   <p><button onclick="location.reload()">Try again?</button></p>
+ </p>
+</div>
+
+
+<div id="driver" class="room">
+  <p> 
+      <img src="images/home_depot1.jpg">
+
+      After this exhausting yet timesaving? process, <br/>
+      I arrive at the Home Depot. For some reason, my car receives strange looks, <br/> 
+      and some fool mutters something about the tires being on backward. <br/>
+      Whatever. Now, I must track down a chainsaw and other appropriate weapons for cat-slaying. <br/>
+  </p>
+  <p><button onclick="go(mainAisle); drop(house) ">Begin the hunt!</button></p>
+</div>
+
+<div id="mainAisle" class="room">
+  <p> 
+      <img src="images/shopping_carts1.jpg">
+      Items desired: <br/>
+      1. Chainsaw:🪚 <br/>
+      2. Hammer: 🔨 <br/>
+      3. Poison:🧪 <br/>
+      4. Rope:🪢 <br/>
+      5. Potted Plants (because cats totally have plant allergies):🪴<br/>
+      6. Fuel Keg:🛢️ <br/>
+      7. Contractor Bags:🗑️ <br/>
+      8. Lumber:🪵 <br/>
+      9. Screws:🔩 <br/>
+  </p> 
+  <span class="has_screws">
+    <span class="has_lumber">
+      <span class="has_bag">
+        <span class="has_fuel">
+          <span class="has_plants"> 
+            <span class="has_rope">
+              <span class="has_poison">
+                <span class="has_hammer">
+                  <span class="has_chainsaw">
+                    <span class="has_cat">
+                      <span class="has_lockpick">
+                        <p><button onclick="go(purchase1)">Done shopping!</button></p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+  
+
+
+ <span class="has_screws">
+    <span class="has_lumber">
+      <span class="has_bag">
+        <span class="has_fuel">
+          <span class="has_plants"> 
+            <span class="has_rope">
+              <span class="has_poison">
+                <span class="has_hammer">
+                  <span class="has_chainsaw">
+                    <span class="has_cat">
+                      <span class="lacks_lockpick">
+                        <span class="lacks_newCar">
+                        <p><button onclick="go(purchase2)">Done shopping!</button></p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+  
+
+
+ <span class="has_screws">
+    <span class="has_lumber">
+      <span class="has_bag">
+        <span class="has_fuel">
+          <span class="has_plants"> 
+            <span class="has_rope">
+              <span class="has_poison">
+                <span class="has_hammer">
+                  <span class="has_chainsaw">
+                    <span class="has_cat">
+                      <span class="has_newCar">
+                        <p><button onclick="go(purchase3)">Done shopping!</button></p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </span>
+  
+
+
+
+  <p><button onclick="go(begin)">Browse aisles</button></p>
+</div>
+
+
+<div id="begin" class="room">
+  <h1>Home Depot</h1>
+  <p>
+    Every conceivable anti-cat apparatus is contained within these aisles <br/>
+    Aisles include:
+    <button onclick="go(lightingAisle)">Lighting</button>,
+    <button onclick="go(woodAisle)">Wood</button>,
+    <button onclick="go(powerToolsAisle)">Power Tools</button>,
+    <button onclick="go(handToolsAisle)">Hand Tools</button>,
+    <button onclick="go(ropesAisle)">Ropes</button>,
+    <button onclick="go(kitchenAisle)">Kitchen and Bath</button>,
+    <button onclick="go(grillsAisle)">Grills</button>,
+    <button onclick="go(pestControlAisle)">Pest Control</button>,
+    <button onclick="go(appliancesAisle)">Appliances</button>,
+    <button onclick="go(nailsAndScrewsAisle)">Nails and Screws</button>,
+    <button onclick="go(aisle17)">Aisle17</button>,
+    and <button onclick="go(aisle18Aisle)">Aisle18</button>.<br/>
+    There's also an exit to the <button onclick="go(gardenCenter)">Garden Center</button>.
+  </p>
+</div>
+
+<!-- LIGHTING -->
+
+<div id="lightingAisle" class="room">
+  <img src="images/lights1.jpg">
+  <p>
+    I am in the lighting aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(lightingAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="lightingAisle2" class="room">
+  <img src="images/ceiling_fan1.jpg">
+  <p>
+    I am in the lighting aisle.
+  </p>
+  <p><button onclick="go(lightingAisle)">Go Up Aisle</button></p>
+</div>
+
+<!-- WOOD -->
+
+<div id="woodAisle" class="room">
+  <img src="images/wood2.jpg">
+  <p>
+    I am in the wood aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(woodAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="woodAisle2" class="room">
+  <img src="images/wood1.jpg">
+  <p>
+    I am in the wood aisle. Here, there appears to be a sufficently dangerous-looking log.
+  </p>
+  <p><button onclick="get(lumber)">Get the lumber</button></p>
+  <p><button onclick="go(woodAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(woodAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="woodAisle3" class="room">
+  <img src="images/fence1.jpg">
+  <p>
+    I am in the wood aisle.
+  </p>
+  <p><button onclick="go(woodAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(woodAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="woodAisle4" class="room">
+  <img src="images/fence2.jpg">
+  <p>
+    I am in the wood aisle.
+  </p>
+  <p><button onclick="go(woodAisle3)">Go Up Aisle</button></p>
+</div>
+
+<!-- POWER TOOLS -->
+
+<div id="powerToolsAisle" class="room">
+  <img src="images/nailers1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle2" class="room">
+  <img src="images/blade1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle3)">Go Down Aisle</button></p>
+</div>
+
+
+ 
+<div id="powerToolsAisle3" class="room">
+  <img src="images/blades1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle4" class="room">
+  <img src="images/blades2.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle5" class="room">
+  <img src="images/blades3.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle6" class="room">
+  <img src="images/drill1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle7" class="room">
+  <img src="images/drill2.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle8" class="room">
+  <img src="images/drill3.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle7)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle9)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle9" class="room">
+  <img src="images/angle_grinder1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle8)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle10)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle10" class="room">
+  <img src="images/nail_gun1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle9)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle11)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle11" class="room">
+  <img src="images/nail_gun2.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle10)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle12)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle12" class="room">
+  <img src="images/sandpaper1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle11)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle13)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle13" class="room">
+  <img src="images/table_saw1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle12)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle14)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle14" class="room">
+  <img src="images/table_saw2.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle13)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle15)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle15" class="room">
+  <img src="images/table_saw3.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle14)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle16)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle16" class="room">
+  <img src="images/table_saw4.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle15)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle17)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle17" class="room">
+  <img src="images/table_saw5.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle16)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle18)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle18" class="room">
+  <img src="images/table_saw6.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle17)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle19)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle19" class="room">
+  <img src="images/table_saw7.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle18)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle20)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle20" class="room">
+  <img src="images/sprayer1.jpg">
+  <p>
+    I am in the power tools aisle.
+  </p>
+  <p><button onclick="go(powerToolsAisle19)">Go Up Aisle</button></p>
+  <p><button onclick="go(powerToolsAisle21)">Go Down Aisle</button></p>
+</div>
+
+<div id="powerToolsAisle21" class="room">
+  <img src="images/chainsaw1.jpg">
+  <p>
+    I am in the power tools aisle. A vicious-looking chainsaw is here in a box.
+  </p>
+  <p><button onclick="get(chainsaw)">Get weapon</button></p>
+  <p><button onclick="go(powerToolsAisle20)">Go Up Aisle</button></p>
+</div>
+
+<!-- HAND TOOLS -->
+
+<div id="handToolsAisle" class="room">
+  <img src="images/hammers1.jpg">
+  <p>
+    I am in the hand tools aisle. <br/>
+    A heavy-looking hammer, perfect for smashing the skulls of cats, is here. <br/> 
+  </p>
+  <p><button onclick="get(hammer)">Place in cart</button></p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(handToolsAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle2" class="room">
+  <img src="images/clippers1.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(handToolsAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle3" class="room">
+  <img src="images/pliers1.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(handToolsAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle4" class="room">
+  <img src="images/shears1.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(handToolsAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle5" class="room">
+  <img src="images/shovels1.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(handToolsAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle6" class="room">
+  <img src="images/knife1.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(handToolsAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="handToolsAisle7" class="room">
+  <img src="images/knife2.jpg">
+  <p>
+    I am in the hand tools aisle.
+  </p>
+  <p><button onclick="go(handToolsAisle6)">Go Up Aisle</button></p>
+</div>
+
+<!-- ROPES -->
+
+<div id="ropesAisle" class="room">
+  <img src="images/ropes1.jpg">
+  <p>
+    I am in the ropes aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(ropesAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="ropesAisle2" class="room">
+  <img src="images/ropes2.jpg">
+  <p>
+    I am in the ropes aisle.
+  </p>
+  <p><button onclick="go(ropesAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(ropesAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="ropesAisle3" class="room">
+  <img src="images/chains1.jpg">
+  <p>
+    I am in the ropes aisle.
+  </p>
+  <p><button onclick="go(ropesAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(ropesAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="ropesAisle4" class="room">
+  <img src="images/chains2.jpg">
+  <p>
+    I am in the ropes aisle.
+  </p>
+  <p><button onclick="go(ropesAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(ropesAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="ropesAisle5" class="room">
+  <img src="images/chains3.jpg">
+  <p>
+    I am in the ropes aisle. A nice and thick coil of rope sits on a shelf, waiting.
+  </p>
+  <p><button onclick="get(rope)">Get rope</button></p>
+  <p><button onclick="go(ropesAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(ropesAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="ropesAisle6" class="room">
+  <img src="images/chains4.jpg">
+  <p>
+    I am in the ropes aisle.
+  </p>
+  <p><button onclick="go(ropesAisle5)">Go Up Aisle</button></p>
+</div>
+
+<!-- Bathroom & Kitchen -->
+
+<div id="kitchenAisle" class="room">
+  <img src="images/toilets1.jpg">
+  <p>
+    I am in the kitchen and bath aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(kitchenAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="kitchenAisle2" class="room">
+  <img src="images/drain_weasel1.jpg">
+  <p>
+    I am in the kitchen and bath aisle.
+  </p>
+  <p><button onclick="go(kitchenAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(kitchenAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="kitchenAisle3" class="room">
+  <img src="images/garbage_disposal1.jpg">
+  <p>
+    I am in the kitchen and bath aisle.
+  </p>
+  <p><button onclick="go(kitchenAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(kitchenAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="kitchenAisle4" class="room">
+  <img src="images/garbage_disposals1.jpg">
+  <p>
+    I am in the kitchen and bath aisle.
+  </p>
+  <p><button onclick="go(kitchenAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(kitchenAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="kitchenAisle5" class="room">
+  <img src="images/door_knob1.jpg">
+  <p>
+    I am in the kitchen and bath aisle.
+  </p>
+  <p><button onclick="go(kitchenAisle4)">Go Up Aisle</button></p>
+</div>
+
+<!-- GRILLS -->
+
+<div id="grillsAisle" class="room">
+  <img src="images/grills1.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(grillsAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle2" class="room">
+  <img src="images/grills2.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(grillsAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(grillsAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle3" class="room">
+  <img src="images/lighter1.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(grillsAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(grillsAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle4" class="room">
+  <img src="images/lighter_fluid1.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(grillsAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(grillsAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle5" class="room">
+  <img src="images/charcole1.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(grillsAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(grillsAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle6" class="room">
+  <img src="images/electric_smoker1.jpg">
+  <p>
+    I am in the grills aisle.
+  </p>
+  <p><button onclick="go(grillsAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(grillsAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="grillsAisle7" class="room">
+  <img src="images/fuel_keg1.jpg">
+  <p>
+    I am in the grills aisle.</br>
+    Here, there is a lovely rack of fuel kegs. <br/>
+  </p>
+  <p><button onclick="get(fuel)">Prepare for arson!</button></p>
+  <p><button onclick="go(grillsAisle6)">Go Up Aisle</button></p>
+</div>
+
+<!-- PEST CONTROL -->
+
+<div id="pestControlAisle" class="room">
+  <img src="images/mouse_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(pestControlAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle2" class="room">
+  <img src="images/mouse_trap1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle3" class="room">
+  <img src="images/rat_repellant1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle4" class="room">
+  <img src="images/rat_trap1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle5" class="room">
+  <img src="images/rat_trap2.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle6" class="room">
+  <img src="images/slug_poison1.jpg">
+  <p>
+    I am in the pest control aisle. <br/>
+    There is snail poison here. Hopefully it will work on cats as well? <br/>
+  </p>
+  <p><button onclick="get(poison)">Probably (get it)</button></p>
+  <p><button onclick="go(pestControlAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle7" class="room">
+  <img src="images/snake_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle8" class="room">
+  <img src="images/spider_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle7)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle9)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle9" class="room">
+  <img src="images/termite_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle8)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle10)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle10" class="room">
+  <img src="images/skunk_repellant1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle9)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle11)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle11" class="room">
+  <img src="images/bug_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle10)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle12)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle12" class="room">
+  <img src="images/mole_repellant1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle11)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle13)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle13" class="room">
+  <img src="images/insect_trap1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle12)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle14)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle14" class="room">
+  <img src="images/glue_trap1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle13)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle15)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle15" class="room">
+  <img src="images/ant_poison1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle14)">Go Up Aisle</button></p>
+  <p><button onclick="go(pestControlAisle16)">Go Down Aisle</button></p>
+</div>
+
+<div id="pestControlAisle16" class="room">
+  <img src="images/animal_repellant1.jpg">
+  <p>
+    I am in the pest control aisle.
+  </p>
+  <p><button onclick="go(pestControlAisle15)">Go Up Aisle</button></p>
+</div>
+
+<!-- APPLIANCES -->
+
+<div id="appliancesAisle" class="room">
+  <img src="images/oven1.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle3" class="room">
+  <img src="images/oven4.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle4" class="room">
+  <img src="images/fridge1.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle5" class="room">
+  <img src="images/washing_machine1.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle6" class="room">
+  <img src="images/washing_machine2.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle7" class="room">
+  <img src="images/water_heater1.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(appliancesAisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="appliancesAisle8" class="room">
+  <img src="images/microwave1.jpg">
+  <p>
+    I am in the appliances aisle.
+  </p>
+  <p><button onclick="go(appliancesAisle7)">Go Up Aisle</button></p>
+</div>
+
+<!-- NAILS AND SCREWS -->
+
+<div id="nailsAndScrewsAisle" class="room">
+  <img src="images/screws1.jpg">
+  <p>
+    I am in the nails and screws aisle.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(nailsAndScrewsAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="nailsAndScrewsAisle2" class="room">
+  <img src="images/screws2.jpg">
+  <p>
+    I am in the nails and screws aisle. <br/>
+    These screws look wonderfully sharp. <br/>
+  </p>
+  <p><button onclick="get(screws)">Prepare to poke!</button></p>
+  <p><button onclick="go(nailsAndScrewsAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(nailsAndScrewsAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="nailsAndScrewsAisle3" class="room">
+  <img src="images/nails1.jpg">
+  <p>
+    I am in the nails and screws aisle.
+  </p>
+  <p><button onclick="go(nailsAndScrewsAisle2)">Go Up Aisle</button></p>
+</div>
+
+<!-- ODDS AND ENDS -->
+
+<div id="aisle17" class="room">
+  <img src="images/pink_panther1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle2" class="room">
+  <img src="images/pipe1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle3" class="room">
+  <img src="images/poker1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle4" class="room">
+  <img src="images/poker2.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle5" class="room">
+  <img src="images/poker3.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle6" class="room">
+  <img src="images/poker4.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle7" class="room">
+  <img src="images/gloves1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle8" class="room">
+  <img src="images/buckets1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle7)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle9)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle9" class="room">
+  <img src="images/rust_disolver1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle8)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle10)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle10" class="room">
+  <img src="images/safety_goggles1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle9)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle11)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle11" class="room">
+  <img src="images/sponges1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle10)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle12)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle12" class="room">
+  <img src="images/tape_measures1.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle11)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle17Aisle13)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle17Aisle13" class="room">
+  <img src="images/wd40.jpg">
+  <p>
+    I am in aisle 17.
+  </p>
+  <p><button onclick="go(aisle17Aisle12)">Go Up Aisle</button></p>
+</div>
+
+<!-- ODDS AND ENDS 2 - AISLE 18 -->
+
+<div id="aisle18Aisle" class="room">
+  <img src="images/ladder1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(mainAisle)">Exit Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle2" class="room">
+  <img src="images/metal1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle3" class="room">
+  <img src="images/metal2.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle4" class="room">
+  <img src="images/heaftybags1.jpg">
+  <p>
+    I am in aisle 18. 
+    These "Contractor Clean-up" bags have a sinister name. <br/>
+    And, they are guaranteed to work! <br/> 
+    Perfect for disposing of all sorts of things. <br/>
+  </p>
+  <p><button onclick="get(bags)">Get</button></p>
+  <p><button onclick="go(aisle18Aisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle5" class="room">
+  <img src="images/motor_oil1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle6" class="room">
+  <img src="images/motor_oil2.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle7" class="room">
+  <img src="images/motor_oil3.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle8" class="room">
+  <img src="images/signs1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle7)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle9)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle9" class="room">
+  <img src="images/batteries1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle8)">Go Up Aisle</button></p>
+  <p><button onclick="go(aisle18Aisle10)">Go Down Aisle</button></p>
+</div>
+
+<div id="aisle18Aisle10" class="room">
+  <img src="images/acetone1.jpg">
+  <p>
+    I am in aisle 18.
+  </p>
+  <p><button onclick="go(aisle18Aisle9)">Go Up Aisle</button></p>
+</div>
+
+<!-- GARDEN CENTER -->
+  
+<div id="gardenCenter" class="room">
+  <img src="images/garden_center1.jpg">
+  <p>
+    I am in the garden center.<br/>
+    There are the following aisles:
+    <button onclick="go(gardenAisle)">Gardening</button>,
+    <button onclick="go(landscapeAisle)">Landscaping</button>,
+    and <button onclick="go(propaneAisle)">Propane</button>.<br/>
+    <button onclick="go(mainAisle)">Exit Garden Center</button>
+  </p>
+</div>
+
+<!-- GARDEN AISLE -->
+
+<div id="gardenAisle" class="room">
+  <img src="images/flowers1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenCenter)">Exit Aisle</button></p>
+  <p><button onclick="go(gardenAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle2" class="room">
+  <img src="images/card_payments1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle3" class="room">
+  <img src="images/gardening1.jpg">
+  <p>
+    I am in the gardening aisle.<br/>
+    These plants look wonderful for producing seasonal allergies! <br/>
+    Surely they will cause suffering in extremity for cats. <br/>
+  </p>
+  <p><button onclick="get(plants)">Get (Achoo!)it</button></p>
+  <p><button onclick="go(gardenAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle4" class="room">
+  <img src="images/fork_lift1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle5" class="room">
+  <img src="images/pallets1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle6" class="room">
+  <img src="images/pallets2.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle7" class="room">
+  <img src="images/weed_killer1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle8" class="room">
+  <img src="images/weed_poison1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle7)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle9)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle9" class="room">
+  <img src="images/soil1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle8)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle10)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle10" class="room">
+  <img src="images/chairs1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle9)">Go Up Aisle</button></p>
+  <p><button onclick="go(gardenAisle11)">Go Down Aisle</button></p>
+</div>
+
+<div id="gardenAisle11" class="room">
+  <img src="images/fake_grass1.jpg">
+  <p>
+    I am in the gardening aisle.
+  </p>
+  <p><button onclick="go(gardenAisle10)">Go Up Aisle</button></p>
+</div>
+
+<!-- LANDSCAPE AISLE -->
+
+<div id="landscapeAisle" class="room">
+  <img src="images/bricks1.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(gardenCenter)">Exit Aisle</button></p>
+  <p><button onclick="go(landscapeAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle2" class="room">
+  <img src="images/bricks2.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle3" class="room">
+  <img src="images/bricks3.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle4" class="room">
+  <img src="images/bricks4.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle3)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle5)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle5" class="room">
+  <img src="images/wheelbarrows1.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle4)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle6)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle6" class="room">
+  <img src="images/wheelbarrows2.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle5)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle7)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle7" class="room">
+  <img src="images/concrete1.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle6)">Go Up Aisle</button></p>
+  <p><button onclick="go(landscapeAisle8)">Go Down Aisle</button></p>
+</div>
+
+<div id="landscapeAisle8" class="room">
+  <img src="images/sand1.jpg">
+  <p>
+    I am in the landscaping aisle.
+  </p>
+  <p><button onclick="go(landscapeAisle7)">Go Up Aisle</button></p>
+</div>
+
+<!-- PROPANE AISLE -->
+
+<div id="propaneAisle" class="room">
+  <img src="images/propane1.jpg">
+  <p>
+    I am in the propane aisle.
+  </p>
+  <p><button onclick="go(gardenCenter)">Exit Aisle</button></p>
+  <p><button onclick="go(propaneAisle2)">Go Down Aisle</button></p>
+</div>
+
+<div id="propaneAisle2" class="room">
+  <img src="images/propane2.jpg">
+  <p>
+    I am in the propane aisle.
+  </p>
+  <p><button onclick="go(propaneAisle)">Go Up Aisle</button></p>
+  <p><button onclick="go(propaneAisle3)">Go Down Aisle</button></p>
+</div>
+
+<div id="propaneAisle3" class="room">
+  <img src="images/propane3.jpg">
+  <p>
+    I am in the propane aisle.
+  </p>
+  <p><button onclick="go(propaneAisle2)">Go Up Aisle</button></p>
+  <p><button onclick="go(propaneAisle4)">Go Down Aisle</button></p>
+</div>
+
+<div id="propaneAisle4" class="room">
+  <img src="images/propane4.jpg">
+  <p>
+    I am in the propane aisle.
+  </p>
+  <p><button onclick="go(propaneAisle3)">Go Up Aisle</button></p>
+</div>
+
+
+<!-- Purchase 1 -->
+<div id ="purchase1" class="room">
+  <p>
+    I complete my checkout and slip through the doors with my cart unoticed, <br/>
+    definitely on account of my extreme spy skills and not because the cashiers <br/>
+    were busy dealing with another customer who fainted from heatstroke. <br/>
+    Outside, I discover to my chagrin that I have too many items to fit inside my bicycle basket; <br/>
+    I remedy this situation by using a magnet from my lockpicking kit to allow my shopping cart to <br/>
+    continue moving outside the borders of the Home Depot. While I may have caused a traffic jam <br/>
+    and a couple crashes on the highway due to people gawking at my utter magnificence, <br/>
+    I manage to arrive home in one piece. <br/>
+    <br/>
+    There is a large white truck outside my neighbor's <br/>
+    house being loaded, but it seems unimportant, as I have items to unpack. <br/>
+    After stowing away my other weapons, I emerge with my chainsaw and stepladder and begin <br/>
+    creeping over the neighbor's picket fence. Interestingly, all his belongings are gone, <br/>
+    including his garden gnomes. Huh. Weird. <br/>
+    <br/>
+    I turn around just in time to see my neighbor clambering into the truck with... <br/>
+    with the CAT in a kennel. To my horror, MOVING is blazoned in bright red letters <br/>
+    across the side of the truck. I jump on my stolen bicycle and give chase, <br/>
+    but the overnight shopping trip and my lack of sleep leaves me incapable of making it down the block. <br/>
+    <br/>
+    Hours later, as night falls, I come to terms with the fact that the cat has escaped... for now. <br/>
+    Tomorrow, or after I recover from my starvation, dehydration, and overexertion, I will find it. <br/>
+    And I will rid the world of that monster. But for now.... 
+    I have to find out what to do with this useless chainsaw. <br/>
+ </p>
+ <p><button onclick="go(finale)">THE END...FOR NOW</button></p>
+</div>
+<div id ="finale" class="room">
+  <p>
+    Congratulations! This is the happiest ending! <br/>
+    Now, lets be honest. The reason why the cat is not killed, <br/>
+    is because you are the anti-hero. We're all rooting for the cat here. <br/>
+    So, I guess for you, <br/>
+    The moral of the story: DON'T TRY TO KILL YOUR NEIGHBOR'S CAT!!!! <br/>
+    Thank you for playing! <br/>
+  </p> 
+  <p><button onclick="location.reload()">Play again?</button></p>
+</div>
+
+
+
+
+<!-- Purchase 2 -->
+<div id= "purchase2" class="room">
+  <p> 
+   The little old lady stalks me all the way to checkout, hiding her face behind a magazine <br/>
+   plastered with pictures of cats. Definitely suspicous. I glance at her through the sides of my eyes during <br/>
+   the entirety of checkout. Even more suspicous is when she gets in <br/>
+   a little lavender 1960's car and follows me down the road, ignoring the people honking behind her. <br/>
+   Must be deaf. Eventually, I arrive back at my house, and she parks on my lawn. <br/>
+   I am going to have to revenge myself upon her for my azalea bushes. <br/>
+   <br/> 
+   I enter my house and close all the shutters, but peeking behind the curtains I can see her poking and tapping everywhere. <br/>
+   By midnight, I am hoping that she has left so I can finally destroy the creature that lurks next door. <br/>
+   My front door slowly creaks as it opens, and I see a little lavender tent pitched next to the car on my lawn. <br/>
+   In front of it, the old lady sits on a rocking chair, smiling straight at me as she crochets. <br/>
+   I let out a terrified yelp and slam it shut and lock all twenty-seven of my deadbolts. <br/>
+   Tomorrow, somehow, I am going to find away to get rid of that old woman, tent, rocking chair, car, and all. <br/>
+   </p>
+   <p><button onclick="go(evil)">THE END...FOR NOW</button></p>
+</div>
+
+<div id= "evil" class="room">
+  <p>
+  Moral of the story: What kind of normal old lady shops at Home Depot, lurks at the front of the store, <br>
+  and stalks people through aisles? <br/> 
+  BEWARE. <br/>
+  Thank you for playing!
+ <p><button onclick="location.reload()">Play again?</button></p>
+</div>
+
+
+<!-- Purchase 3 -->
+<div id="purchase3" class="room">
+  <p>
+    After assembling this interesting and violent collection of tools, </br>
+    I calmly amble towards the entrance of the store. </br>
+    As I pass by a saleswoman next to the self check out lane, <br/>
+    the woman's eyes bulge and she raises her glasses to get a better look at my cart. <br/>
+    Ignoring her, I whistle nonchalantly to myself and begin scanning my barcodes. <br/>
+    However, she hovers behind my shoulder until I glance up, and then begins interrogating me <br/>
+    about my purchases. <br/>
+    Fortunately, I have already developed a long list of excuses. <br/>
+    The chainsaw is for cutting the lumber, which, using the screws and the hammer <br/>
+    (because you totally use screwdrivers with nails and screws with hammers), <br/>
+    will be be turned into a treehouse. The rope is for a ladder, the poison for my slug infestation, <br/>
+    the fuel keg for a lamp, the contractor bags for cleaning up, and the potted plants for decoration. <br/>
+
+    This clever plot is a wonderful success, and the woman, now COMPLETELY rid of suspicions, asks me for <br/>
+    my name, my phone number, my email address, my address, and my license plate number. <br/>
+
+    Nothing can save that cat now.
+   </p>
+   <p><button onclick="go(problem); drop(newCar)">Leave the store</button></p>
+ 
+</div>
+
+<div id="problem" class="room">
+  <p>
+    I gleefully continue towards my car, but then pause in horror. <br/>
+    My car is no longer there. A wonderfully trustworthy-looking guy wearing black sunglasses, <br/> 
+    a ski mask, and somehow smoking a cigar approaches me and explains that my car <br/>
+    was towed because of something about the tires being backward? <br/>
+    He reveals to me that he knows exactly where it was taken and would be happy to give me a ride. <br/>
+  </p>
+    <p><button onclick ="go(whoah)">Go with him</button></p>
+    <p><button onclick ="go(plop)">Decline offer</button></p>
+</div>
+
+
+<div id="whoah" class="room">
+  <p>
+    I gladly agree to go with him, and decide to disregard the vicious-looking gang of thugs lurking in the shadows <br/>
+    After I enter the dark interior of his car (with highly tinted windows?), a wet sponge is clapped over my face. <br/>
+    I am still debating whether it is a wet kitchen sponge or just wet sponge cake when I fall unconscious. 
+    To be continued...<br/>
+  </p>
+    <p><button onclick="go(sponge)">THE END...FOR NOW</button></p>
+</div>
+
+<div id="sponge" class="room">
+  <p>
+    Moral of the story: Seriously? You actually did this? DON'T GET IN THE CAR WITH STRANGERS!!!! <br/>
+    Thank you for playing!<br/>
+  </p>
+    <p><button onclick="location.reload()">Play again?</button></p>
+  </div>
+
+<div id="plop" class="room">
+  <p>
+    I politely turn down his offer, turn around, 
+    and walk straight into the chest of a buff thug.
+    Before I can do anything, someone bashes me over the head with MY OWN HAMMER, and I lose consciousness. <br/>
+    To be continued...<br/>
+  </p>
+    <p><button onclick="go(basher)"> THE END..FOR NOW</button></p>
+  </div>
+
+<div id="basher" class="room">
+  <p>
+   Moral of the story: I suppose it OUGHT to be something like "Pride comes before a fall." <br/>
+   But really, it is: Don't hang out with shady-looking men in Home Depot parking-lots! <br/>
+   Thank you for playing! <br/>
+  </p>
+    <p><button onclick="location.reload()">Play again?</button></p>
+</div>
+
+</div>
+   
+
+
+
+<script src="cat.js"></script>

@@ -1,0 +1,37 @@
+body {
+  background-color: purple;
+  color: cyan;
+  font-size: 20px;
+}
+
+.item {
+  width: 10%;
+  background-color: darkgreen;
+  border-color: red;
+  border-style: dashed;
+  margin: 4px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.room img {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+button {
+  font-size: 20px;
+  background-color: beige;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
